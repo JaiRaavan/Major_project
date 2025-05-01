@@ -29,7 +29,7 @@ class ValidationAgent(BaseStanceAgent):
         # Initialize the OpenAI client with OpenRouter base URL
         self.client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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"
+            api_key
         )
         
         # Define model parameters to use with API calls
